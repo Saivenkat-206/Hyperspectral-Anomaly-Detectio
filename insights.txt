@@ -1,4 +1,4 @@
-RX Detection results:
+RX Detection results: (Basic algo)
 Processing category: Airport
   -> abu-airport-1.mat
      ROC AUC: 0.8221
@@ -31,8 +31,7 @@ Processing category: Urban
   -> abu-urban-5.mat
      ROC AUC: 0.9692
 
-Only Autoencoder performance:
-
+Only Autoencoder performance: (ROC Map and Images in the interface)
 Processing: Data\Airport\abu-airport-1.mat
   Loaded cube with shape: (100, 100, 205)
 Epoch 1/20, Loss: 0.168662
@@ -345,7 +344,7 @@ Epoch 19/20, Loss: 0.016362
 Epoch 20/20, Loss: 0.016362
   ROC AUC: 0.9620
 
-Hybrid RX + 3D VAE Results:
+Hybrid RX + 3D VAE Results: (Maps not plotted in the directory)
 
 Epoch 1/20, Total Loss: 0.1864, Recon Loss: 0.1864, Clf Loss: 0.0000
 Epoch 2/20, Total Loss: 0.1858, Recon Loss: 0.1858, Clf Loss: 0.0000
@@ -369,3 +368,4 @@ Epoch 19/20, Total Loss: 0.0185, Recon Loss: 0.0185, Clf Loss: 0.0000
 Epoch 20/20, Total Loss: 0.0185, Recon Loss: 0.0185, Clf Loss: 0.0000
 SVM Accuracy: 0.5500, AUC: 0.4231
 IF Accuracy: 0.6500, AUC: 0.5000
+
