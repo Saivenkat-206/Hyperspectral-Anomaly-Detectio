@@ -1,0 +1,371 @@
+RX Detection results:
+Processing category: Airport
+  -> abu-airport-1.mat
+     ROC AUC: 0.8221
+  -> abu-airport-2.mat
+     ROC AUC: 0.8404
+  -> abu-airport-3.mat
+     ROC AUC: 0.9288
+  -> abu-airport-4.mat
+     ROC AUC: 0.9526
+
+Processing category: Beach
+  -> abu-beach-1.mat
+     ROC AUC: 0.9807
+  -> abu-beach-2.mat
+     ROC AUC: 0.9106
+  -> abu-beach-3.mat
+     ROC AUC: 0.9998
+  -> abu-beach-4.mat
+     ROC AUC: 0.9538
+
+Processing category: Urban
+  -> abu-urban-1.mat
+     ROC AUC: 0.9907
+  -> abu-urban-2.mat
+     ROC AUC: 0.9946
+  -> abu-urban-3.mat
+     ROC AUC: 0.9513
+  -> abu-urban-4.mat
+     ROC AUC: 0.9887
+  -> abu-urban-5.mat
+     ROC AUC: 0.9692
+
+Only Autoencoder performance:
+
+Processing: Data\Airport\abu-airport-1.mat
+  Loaded cube with shape: (100, 100, 205)
+Epoch 1/20, Loss: 0.168662
+Epoch 2/20, Loss: 0.166538
+Epoch 3/20, Loss: 0.163947
+Epoch 4/20, Loss: 0.160504
+Epoch 5/20, Loss: 0.155952
+Epoch 6/20, Loss: 0.150059
+Epoch 7/20, Loss: 0.142176
+Epoch 8/20, Loss: 0.130775
+Epoch 9/20, Loss: 0.113522
+Epoch 10/20, Loss: 0.087369
+Epoch 11/20, Loss: 0.053084
+Epoch 12/20, Loss: 0.022728
+Epoch 13/20, Loss: 0.014862
+Epoch 14/20, Loss: 0.018016
+Epoch 15/20, Loss: 0.019687
+Epoch 16/20, Loss: 0.020254
+Epoch 17/20, Loss: 0.020474
+Epoch 18/20, Loss: 0.020569
+Epoch 19/20, Loss: 0.020612
+Epoch 20/20, Loss: 0.020634
+  ROC AUC: 0.6942
+
+Processing: Data\Airport\abu-airport-2.mat
+  Loaded cube with shape: (100, 100, 205)
+Epoch 1/20, Loss: 0.168603
+Epoch 2/20, Loss: 0.166491
+Epoch 3/20, Loss: 0.163675
+Epoch 4/20, Loss: 0.158656
+Epoch 5/20, Loss: 0.148693
+Epoch 6/20, Loss: 0.128841
+Epoch 7/20, Loss: 0.093117
+Epoch 8/20, Loss: 0.045187
+Epoch 9/20, Loss: 0.016314
+Epoch 10/20, Loss: 0.016857
+Epoch 11/20, Loss: 0.019054
+Epoch 12/20, Loss: 0.019707
+Epoch 13/20, Loss: 0.019933
+Epoch 14/20, Loss: 0.020018
+Epoch 15/20, Loss: 0.020036
+Epoch 16/20, Loss: 0.019930
+Epoch 17/20, Loss: 0.020174
+Epoch 18/20, Loss: 0.019629
+Epoch 19/20, Loss: 0.021492
+Epoch 20/20, Loss: 0.019919
+  ROC AUC: 0.6773
+
+Processing: Data\Airport\abu-airport-3.mat
+  Loaded cube with shape: (100, 100, 205)
+Epoch 1/20, Loss: 0.175791
+Epoch 2/20, Loss: 0.172733
+Epoch 3/20, Loss: 0.168778
+Epoch 4/20, Loss: 0.162770
+Epoch 5/20, Loss: 0.152360
+Epoch 6/20, Loss: 0.132334
+Epoch 7/20, Loss: 0.096461
+Epoch 8/20, Loss: 0.046376
+Epoch 9/20, Loss: 0.014177
+Epoch 10/20, Loss: 0.014289
+Epoch 11/20, Loss: 0.016136
+Epoch 12/20, Loss: 0.016602
+Epoch 13/20, Loss: 0.016753
+Epoch 14/20, Loss: 0.016804
+Epoch 15/20, Loss: 0.016821
+Epoch 16/20, Loss: 0.016828
+Epoch 17/20, Loss: 0.016828
+Epoch 18/20, Loss: 0.016823
+Epoch 19/20, Loss: 0.016725
+Epoch 20/20, Loss: 0.017846
+  ROC AUC: 0.9210
+
+Processing: Data\Airport\abu-airport-4.mat
+  Loaded cube with shape: (100, 100, 191)
+Epoch 1/20, Loss: 0.123192
+Epoch 2/20, Loss: 0.121530
+Epoch 3/20, Loss: 0.119363
+Epoch 4/20, Loss: 0.115997
+Epoch 5/20, Loss: 0.110357
+Epoch 6/20, Loss: 0.100162
+Epoch 7/20, Loss: 0.081897
+Epoch 8/20, Loss: 0.053828
+Epoch 9/20, Loss: 0.028181
+Epoch 10/20, Loss: 0.031559
+Epoch 11/20, Loss: 0.037670
+Epoch 12/20, Loss: 0.036673
+Epoch 13/20, Loss: 0.030441
+Epoch 14/20, Loss: 0.021464
+Epoch 15/20, Loss: 0.015132
+Epoch 16/20, Loss: 0.014200
+Epoch 17/20, Loss: 0.015191
+Epoch 18/20, Loss: 0.015547
+Epoch 19/20, Loss: 0.015639
+Epoch 20/20, Loss: 0.015678
+  ROC AUC: 0.4036
+
+Processing: Data\Beach\abu-beach-1.mat
+  Loaded cube with shape: (150, 150, 188)
+Epoch 1/20, Loss: 0.218552
+Epoch 2/20, Loss: 0.215689
+Epoch 3/20, Loss: 0.211900
+Epoch 4/20, Loss: 0.206414
+Epoch 5/20, Loss: 0.198293
+Epoch 6/20, Loss: 0.186101
+Epoch 7/20, Loss: 0.167446
+Epoch 8/20, Loss: 0.139106
+Epoch 9/20, Loss: 0.098635
+Epoch 10/20, Loss: 0.050499
+Epoch 11/20, Loss: 0.015532
+Epoch 12/20, Loss: 0.006812
+Epoch 13/20, Loss: 0.006538
+Epoch 14/20, Loss: 0.006547
+Epoch 15/20, Loss: 0.006557
+Epoch 16/20, Loss: 0.006562
+Epoch 17/20, Loss: 0.006564
+Epoch 18/20, Loss: 0.006564
+Epoch 19/20, Loss: 0.006564
+Epoch 20/20, Loss: 0.006564
+  ROC AUC: 0.9513
+
+Processing: Data\Beach\abu-beach-2.mat
+  Loaded cube with shape: (100, 100, 193)
+Epoch 1/20, Loss: 0.212464
+Epoch 2/20, Loss: 0.209401
+Epoch 3/20, Loss: 0.205610
+Epoch 4/20, Loss: 0.199976
+Epoch 5/20, Loss: 0.190576
+Epoch 6/20, Loss: 0.173401
+Epoch 7/20, Loss: 0.142075
+Epoch 8/20, Loss: 0.092977
+Epoch 9/20, Loss: 0.038228
+Epoch 10/20, Loss: 0.010734
+Epoch 11/20, Loss: 0.008575
+Epoch 12/20, Loss: 0.008762
+Epoch 13/20, Loss: 0.008840
+Epoch 14/20, Loss: 0.008875
+Epoch 15/20, Loss: 0.008887
+Epoch 16/20, Loss: 0.008893
+Epoch 17/20, Loss: 0.008895
+Epoch 18/20, Loss: 0.008895
+Epoch 19/20, Loss: 0.008892
+Epoch 20/20, Loss: 0.008904
+  ROC AUC: 0.9039
+
+Processing: Data\Beach\abu-beach-3.mat
+  Loaded cube with shape: (100, 100, 188)
+Epoch 1/20, Loss: 0.153315
+Epoch 2/20, Loss: 0.151187
+Epoch 3/20, Loss: 0.148414
+Epoch 4/20, Loss: 0.144046
+Epoch 5/20, Loss: 0.135941
+Epoch 6/20, Loss: 0.119651
+Epoch 7/20, Loss: 0.088135
+Epoch 8/20, Loss: 0.045136
+Epoch 9/20, Loss: 0.023677
+Epoch 10/20, Loss: 0.028325
+Epoch 11/20, Loss: 0.031427
+Epoch 12/20, Loss: 0.031937
+Epoch 13/20, Loss: 0.030542
+Epoch 14/20, Loss: 0.027169
+Epoch 15/20, Loss: 0.026414
+Epoch 16/20, Loss: 0.027044
+Epoch 17/20, Loss: 0.021589
+Epoch 18/20, Loss: 0.022457
+Epoch 19/20, Loss: 0.024343
+Epoch 20/20, Loss: 0.022435
+  ROC AUC: 0.8843
+
+Processing: Data\Beach\abu-beach-4.mat
+  Loaded cube with shape: (150, 150, 102)
+Epoch 1/20, Loss: 0.178701
+Epoch 2/20, Loss: 0.176274
+Epoch 3/20, Loss: 0.173441
+Epoch 4/20, Loss: 0.169387
+Epoch 5/20, Loss: 0.163047
+Epoch 6/20, Loss: 0.152697
+Epoch 7/20, Loss: 0.136411
+Epoch 8/20, Loss: 0.114752
+Epoch 9/20, Loss: 0.085954
+Epoch 10/20, Loss: 0.049978
+Epoch 11/20, Loss: 0.029100
+Epoch 12/20, Loss: 0.026584
+Epoch 13/20, Loss: 0.026543
+Epoch 14/20, Loss: 0.026536
+Epoch 15/20, Loss: 0.026539
+Epoch 16/20, Loss: 0.026540
+Epoch 17/20, Loss: 0.026540
+Epoch 18/20, Loss: 0.026540
+Epoch 19/20, Loss: 0.026540
+Epoch 20/20, Loss: 0.026540
+  ROC AUC: 0.9059
+
+Processing: Data\Urban\abu-urban-1.mat
+  Loaded cube with shape: (100, 100, 204)
+Epoch 1/20, Loss: 0.156153
+Epoch 2/20, Loss: 0.153618
+Epoch 3/20, Loss: 0.150545
+Epoch 4/20, Loss: 0.146425
+Epoch 5/20, Loss: 0.140296
+Epoch 6/20, Loss: 0.129975
+Epoch 7/20, Loss: 0.111417
+Epoch 8/20, Loss: 0.080117
+Epoch 9/20, Loss: 0.039822
+Epoch 10/20, Loss: 0.017609
+Epoch 11/20, Loss: 0.022089
+Epoch 12/20, Loss: 0.025875
+Epoch 13/20, Loss: 0.027122
+Epoch 14/20, Loss: 0.027488
+Epoch 15/20, Loss: 0.027322
+Epoch 16/20, Loss: 0.026320
+Epoch 17/20, Loss: 0.025996
+Epoch 18/20, Loss: 0.025656
+Epoch 19/20, Loss: 0.023417
+Epoch 20/20, Loss: 0.022675
+  ROC AUC: 0.9839
+
+Processing: Data\Urban\abu-urban-2.mat
+  Loaded cube with shape: (100, 100, 207)
+Epoch 1/20, Loss: 0.202165
+Epoch 2/20, Loss: 0.199317
+Epoch 3/20, Loss: 0.196064
+Epoch 4/20, Loss: 0.191669
+Epoch 5/20, Loss: 0.184795
+Epoch 6/20, Loss: 0.172729
+Epoch 7/20, Loss: 0.150518
+Epoch 8/20, Loss: 0.110642
+Epoch 9/20, Loss: 0.055804
+Epoch 10/20, Loss: 0.016477
+Epoch 11/20, Loss: 0.007788
+Epoch 12/20, Loss: 0.006622
+Epoch 13/20, Loss: 0.006408
+Epoch 14/20, Loss: 0.006355
+Epoch 15/20, Loss: 0.006347
+Epoch 16/20, Loss: 0.006348
+Epoch 17/20, Loss: 0.006348
+Epoch 18/20, Loss: 0.006348
+Epoch 19/20, Loss: 0.006348
+Epoch 20/20, Loss: 0.006348
+  ROC AUC: 0.9994
+
+Processing: Data\Urban\abu-urban-3.mat
+  Loaded cube with shape: (100, 100, 191)
+Epoch 1/20, Loss: 0.169479
+Epoch 2/20, Loss: 0.167102
+Epoch 3/20, Loss: 0.164101
+Epoch 4/20, Loss: 0.159731
+Epoch 5/20, Loss: 0.152426
+Epoch 6/20, Loss: 0.138747
+Epoch 7/20, Loss: 0.113431
+Epoch 8/20, Loss: 0.072957
+Epoch 9/20, Loss: 0.033551
+Epoch 10/20, Loss: 0.021030
+Epoch 11/20, Loss: 0.020412
+Epoch 12/20, Loss: 0.021090
+Epoch 13/20, Loss: 0.021356
+Epoch 14/20, Loss: 0.021426
+Epoch 15/20, Loss: 0.021446
+Epoch 16/20, Loss: 0.021451
+Epoch 17/20, Loss: 0.021451
+Epoch 18/20, Loss: 0.021458
+Epoch 19/20, Loss: 0.021468
+Epoch 20/20, Loss: 0.021462
+  ROC AUC: 0.7645
+
+Processing: Data\Urban\abu-urban-4.mat
+  Loaded cube with shape: (100, 100, 205)
+Epoch 1/20, Loss: 0.222289
+Epoch 2/20, Loss: 0.219739
+Epoch 3/20, Loss: 0.216766
+Epoch 4/20, Loss: 0.212197
+Epoch 5/20, Loss: 0.205015
+Epoch 6/20, Loss: 0.192624
+Epoch 7/20, Loss: 0.170576
+Epoch 8/20, Loss: 0.132804
+Epoch 9/20, Loss: 0.077652
+Epoch 10/20, Loss: 0.024640
+Epoch 11/20, Loss: 0.004447
+Epoch 12/20, Loss: 0.002281
+Epoch 13/20, Loss: 0.001988
+Epoch 14/20, Loss: 0.001952
+Epoch 15/20, Loss: 0.001950
+Epoch 16/20, Loss: 0.001949
+Epoch 17/20, Loss: 0.001949
+Epoch 18/20, Loss: 0.001949
+Epoch 19/20, Loss: 0.001949
+Epoch 20/20, Loss: 0.001949
+  ROC AUC: 0.9965
+
+Processing: Data\Urban\abu-urban-5.mat
+  Loaded cube with shape: (100, 100, 205)
+Epoch 1/20, Loss: 0.179334
+Epoch 2/20, Loss: 0.177398
+Epoch 3/20, Loss: 0.174783
+Epoch 4/20, Loss: 0.170916
+Epoch 5/20, Loss: 0.164971
+Epoch 6/20, Loss: 0.155439
+Epoch 7/20, Loss: 0.139421
+Epoch 8/20, Loss: 0.112558
+Epoch 9/20, Loss: 0.072636
+Epoch 10/20, Loss: 0.031031
+Epoch 11/20, Loss: 0.014177
+Epoch 12/20, Loss: 0.015075
+Epoch 13/20, Loss: 0.015987
+Epoch 14/20, Loss: 0.016246
+Epoch 15/20, Loss: 0.016328
+Epoch 16/20, Loss: 0.016352
+Epoch 17/20, Loss: 0.016359
+Epoch 18/20, Loss: 0.016361
+Epoch 19/20, Loss: 0.016362
+Epoch 20/20, Loss: 0.016362
+  ROC AUC: 0.9620
+
+Hybrid RX + 3D VAE Results:
+
+Epoch 1/20, Total Loss: 0.1864, Recon Loss: 0.1864, Clf Loss: 0.0000
+Epoch 2/20, Total Loss: 0.1858, Recon Loss: 0.1858, Clf Loss: 0.0000
+Epoch 3/20, Total Loss: 0.1848, Recon Loss: 0.1848, Clf Loss: 0.0000
+Epoch 4/20, Total Loss: 0.1825, Recon Loss: 0.1825, Clf Loss: 0.0000
+Epoch 5/20, Total Loss: 0.1762, Recon Loss: 0.1762, Clf Loss: 0.0000
+Epoch 6/20, Total Loss: 0.1595, Recon Loss: 0.1595, Clf Loss: 0.0000
+Epoch 7/20, Total Loss: 0.1223, Recon Loss: 0.1223, Clf Loss: 0.0000
+Epoch 8/20, Total Loss: 0.0677, Recon Loss: 0.0677, Clf Loss: 0.0000
+Epoch 9/20, Total Loss: 0.0318, Recon Loss: 0.0318, Clf Loss: 0.0000
+Epoch 10/20, Total Loss: 0.0221, Recon Loss: 0.0221, Clf Loss: 0.0000
+Epoch 11/20, Total Loss: 0.0197, Recon Loss: 0.0197, Clf Loss: 0.0000
+Epoch 12/20, Total Loss: 0.0190, Recon Loss: 0.0190, Clf Loss: 0.0000
+Epoch 13/20, Total Loss: 0.0188, Recon Loss: 0.0188, Clf Loss: 0.0000
+Epoch 14/20, Total Loss: 0.0187, Recon Loss: 0.0187, Clf Loss: 0.0000
+Epoch 15/20, Total Loss: 0.0185, Recon Loss: 0.0185, Clf Loss: 0.0000
+Epoch 16/20, Total Loss: 0.0185, Recon Loss: 0.0185, Clf Loss: 0.0000
+Epoch 17/20, Total Loss: 0.0185, Recon Loss: 0.0185, Clf Loss: 0.0000
+Epoch 18/20, Total Loss: 0.0185, Recon Loss: 0.0185, Clf Loss: 0.0000
+Epoch 19/20, Total Loss: 0.0185, Recon Loss: 0.0185, Clf Loss: 0.0000
+Epoch 20/20, Total Loss: 0.0185, Recon Loss: 0.0185, Clf Loss: 0.0000
+SVM Accuracy: 0.5500, AUC: 0.4231
+IF Accuracy: 0.6500, AUC: 0.5000
